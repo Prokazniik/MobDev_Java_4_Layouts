@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent">
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Горизонтальная"/>
-    <TableRow>
 
-        <Button
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="Button1"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="25dp"
+        android:text="Button1" />
 
-    </TableRow>
-    <TableRow>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="65dp"
+        android:text="Button2" />
 
-        <Space />
-
-        <Button
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="Button2"/>
-
-    </TableRow>
-    <TableRow>
-
-        <Space />
-
-        <Space />
-
-        <Button
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="Button3"/>
-
-    </TableRow>
-</TableLayout>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="185dp"
+        android:layout_y="105dp"
+        android:text="Button3" />
+</AbsoluteLayout>
